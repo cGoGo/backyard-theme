@@ -1,0 +1,27 @@
+.header {
+  background-image: url(../images/1920x665-1.jpg);
+  background-size: 140%;
+  background-position: center;
+  color: white; }
+  .header .opacity {
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.title {
+  font-size: 3em;
+  font-weight: 200;
+  padding: 2% 0; }
+
+.btn {
+  border-radius: 25px;
+  padding: 2% 5%; }
+  .btn.btn-primary {
+    background-color: #3cb1f6;
+    color: white;
+    border: none; }
+  .btn.btn-primary-outline {
+    color: #3cb1f6;
+    border: 1px solid #3cb1f6; }
+  .btn:hover {
+    background-color: #097ec3; }
+
+/*# sourceMappingURL=main.css.map */

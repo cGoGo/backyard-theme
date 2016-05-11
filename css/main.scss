@@ -1,0 +1,33 @@
+$pd-tb-2: 2% 0;
+$cian: rgb(60, 177, 246);
+
+.header {
+	background-image: url(../images/1920x665-1.jpg);
+	background-size: 140%;
+	background-position: center;
+	color: white;
+	.opacity {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+.title {
+	font-size: 3em;
+	font-weight: 200;
+	padding: $pd-tb-2;
+}
+.btn {
+	border-radius: 25px;
+	padding: 2% 5%;
+	&.btn-primary {
+		background-color: $cian;
+		color: white;
+		border: none;
+	}
+	&.btn-primary-outline {
+		color: $cian;
+		border: 1px solid $cian;
+	}
+	&:hover {
+		background-color: darken($cian, 20%);
+	}
+}
